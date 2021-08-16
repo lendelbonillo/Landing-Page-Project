@@ -39,7 +39,7 @@
   .enlaces ul li a:hover {
     color: cadetblue;
   }
-  
+
     #jumbotron {
     background-color: burlywood;
     height: 60vh;
@@ -104,3 +104,43 @@
     font-size: 15px;
     background-color: transparent;
   }
+
+  #productos {
+    height: 25vh;
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 15px;
+  }
+  .card {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0);
+    transition: 0.9s;
+    border-radius: 12px;
+  }
+  .card:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container {
+    padding: 2px 25px;
+  }
+  .card p {
+    font-size: 10px;
+  }
+  
+  #productos h1 {
+    color: red;
+  }
+  .venta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+  }
+  .card button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: sandybrown;
+  }
+  
+
+
+
