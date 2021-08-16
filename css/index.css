@@ -159,4 +159,28 @@
     text-align: center;
   }
 
+  #contacto {
+    height: 15vh;
+    background-color: lightsalmon;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  .domicilio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  .domicilio h3 {
+    font-size: 15px;
+  }
+
+
 
