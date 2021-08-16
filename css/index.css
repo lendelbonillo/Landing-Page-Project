@@ -182,5 +182,749 @@
     font-size: 15px;
   }
 
+  @media only screen and (max-width: 650px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    header {
+      background-color: lightgoldenrodyellow;
+      height: 13vh;
+    }
+    .logo {
+      width: 70px;
+    }
+    .carrito {
+      width: 20px;
+    }
+    .enlaces {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .enlaces ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .enlaces ul li {
+      display: inline;
+      padding: 10px;
+    }
+    .enlaces ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: small;
+    }
+    .enlaces ul li a:hover {
+      color: cadetblue;
+    }
+    
+    #jumbotron {
+      background-color: burlywood;
+      height: 50vh;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .planes {
+      display: flex;
+      justify-content: space-around;
+    }
+    .promo {
+      display: flex;
+      align-items: center;
+    }
+    .descripcion {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .descripcion h1 {
+      color: black;
+      font-size: 20px;
+      text-align: center;
+    }
+    .descripcion p {
+      font-size: 10px;
+      text-align: center;
+    }
+    .descripcion button {
+      border-radius: 10px;
+      background-color: transparent;
+      padding: 10px;
+    }
+    .jugos {
+      width: 35vw;
+    }
+    .datos{
+      display: flex;
+    }
+    .datos input {
+      border-radius: 5px;
+      background-color: lightgoldenrodyellow;
+    }
+    .datos button {
+      padding: 5px;
+      font-size: 10px;
+      border-radius: 5px;
+    }
+    .datos button:hover {
+      background-color: lightgoldenrodyellow;
+    }
+    .promo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .promo button {
+      padding: 5px;
+      border-radius: 15px;
+      font-size: 10px;
+      background-color: transparent;
+    }
+    #productos {
+      height: 20vh;
+      background-color: cornsilk;
+      text-align: center;
+      font-size: 15px;
+    }
+    .card {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0);
+      transition: 0.9s;
+      border-radius: 12px;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .container {
+      padding: 2px 25px;
+    }
+    .card p {
+      font-size: 10px;
+    }
+    
+    #productos h1 {
+      color: red;
+    }
+    .venta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      text-align: center;
+    }
+    .card button {
+      padding: 5px;
+      border-radius: 10px;
+      background-color: sandybrown;
+    }
+    
+    #adicionales {
+      height: 90vh;
+      padding: 30px;
+      background-color: cornsilk;
+      display: flex;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: space-around;
+    }
+    #adicionales h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    #adicionales p {
+      font-size: 10px;
+      text-align: center;
+    }
+    
+    #contacto {
+      height: 15vh;
+      background-color: lightsalmon;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+    }
+    .horarios {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+    }
+    .domicilio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+    }
+    .domicilio h3 {
+      font-size: 15px;
+    }
+    } 
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 540px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    header {
+      background-color: lightgoldenrodyellow;
+      height: 8vh;
+    }
+    .logo {
+      width: 60px;
+    }
+    .carrito {
+      width: 20px;
+    }
+    .enlaces {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .enlaces ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .enlaces ul li {
+      display: inline;
+      padding: 10px;
+    }
+    .enlaces ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: small;
+    }
+    .enlaces ul li a:hover {
+      color: cadetblue;
+    }
+    
+    #jumbotron {
+      background-color: burlywood;
+      height: 40vh;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .planes {
+      display: flex;
+      justify-content: space-around;
+    }
+    .promo {
+      display: flex;
+      align-items: center;
+    }
+    .descripcion {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .descripcion h1 {
+      color: black;
+      font-size: 20px;
+      text-align: center;
+    }
+    .descripcion p {
+      font-size: 10px;
+      text-align: center;
+    }
+    .descripcion button {
+      border-radius: 10px;
+      background-color: transparent;
+      padding: 10px;
+    }
+    .jugos {
+      width: 45vw;
+    }
+    .datos{
+      display: flex;
+    }
+    .datos input {
+      border-radius: 5px;
+      background-color: lightgoldenrodyellow;
+    }
+    .datos button {
+      padding: 5px;
+      font-size: 10px;
+      border-radius: 5px;
+    }
+    .datos button:hover {
+      background-color: lightgoldenrodyellow;
+    }
+    .promo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .promo button {
+      padding: 5px;
+      border-radius: 15px;
+      font-size: 10px;
+      background-color: transparent;
+    }
+    #productos {
+      height: 20vh;
+      background-color: cornsilk;
+      text-align: center;
+      font-size: 15px;
+    }
+    .card {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0);
+      transition: 0.9s;
+      border-radius: 12px;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .container {
+      padding: 2px 25px;
+    }
+    .card p {
+      font-size: 10px;
+    }
+    
+    #productos h1 {
+      color: red;
+    }
+    .venta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      text-align: center;
+    }
+    .card button {
+      padding: 5px;
+      border-radius: 10px;
+      background-color: sandybrown;
+    }
+    
+    #adicionales {
+      height: 55vh;
+      padding: 30px;
+      background-color: cornsilk;
+      display: flex;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: space-around;
+    }
+    #adicionales h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    #adicionales p {
+      font-size: 10px;
+      text-align: center;
+    }
+    
+    #contacto {
+      height: 15vh;
+      background-color: lightsalmon;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+    }
+    .horarios {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+    }
+    .domicilio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+    }
+    .domicilio h3 {
+      font-size: 15px;
+    }
+    } 
+  
+  @media only screen and (max-width: 414px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    header {
+      background-color: lightgoldenrodyellow;
+      height: 7vh;
+    }
+    .logo {
+      width: 50px;
+    }
+    .carrito {
+      width: 20px;
+    }
+    .enlaces {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .enlaces ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .enlaces ul li {
+      display: inline;
+      padding: 10px;
+    }
+    .enlaces ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: small;
+    }
+    .enlaces ul li a:hover {
+      color: cadetblue;
+    }
+    
+    #jumbotron {
+      background-color: burlywood;
+      height: 35vh;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .planes {
+      display: flex;
+      justify-content: space-around;
+    }
+    .promo {
+      display: flex;
+      align-items: center;
+    }
+    .descripcion {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .descripcion h1 {
+      color: black;
+      font-size: 20px;
+      text-align: center;
+    }
+    .descripcion p {
+      font-size: 10px;
+      text-align: center;
+    }
+    .descripcion button {
+      border-radius: 10px;
+      background-color: transparent;
+      padding: 10px;
+    }
+    .jugos {
+      width: 45vw;
+    }
+    .datos{
+      display: flex;
+    }
+    .datos input {
+      border-radius: 5px;
+      background-color: lightgoldenrodyellow;
+    }
+    .datos button {
+      padding: 5px;
+      font-size: 10px;
+      border-radius: 5px;
+    }
+    .datos button:hover {
+      background-color: lightgoldenrodyellow;
+    }
+    .promo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .promo button {
+      padding: 5px;
+      border-radius: 15px;
+      font-size: 10px;
+      background-color: transparent;
+    }
+    #productos {
+      height: 20vh;
+      background-color: cornsilk;
+      text-align: center;
+      font-size: 15px;
+    }
+    .card {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0);
+      transition: 0.9s;
+      border-radius: 12px;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .container {
+      padding: 2px 25px;
+    }
+    .card p {
+      font-size: 10px;
+    }
+    
+    #productos h1 {
+      color: red;
+    }
+    .venta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      text-align: center;
+    }
+    .card button {
+      padding: 5px;
+      border-radius: 10px;
+      background-color: sandybrown;
+    }
+    
+    #adicionales {
+      height: 50vh;
+      padding: 30px;
+      background-color: cornsilk;
+      display: flex;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: space-around;
+    }
+    #adicionales h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    #adicionales p {
+      font-size: 10px;
+      text-align: center;
+    }
+    
+    #contacto {
+      height: 15vh;
+      background-color: lightsalmon;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+    }
+    .horarios {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+    }
+    .domicilio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+    }
+    .domicilio h3 {
+      font-size: 15px;
+    }
+    } 
+  
+  @media only screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: lightgoldenrodyellow;
+    height: 7vh;
+  }
+  .logo {
+    width: 50px;
+  }
+  .carrito {
+    width: 20px;
+  }
+  .enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .enlaces ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .enlaces ul li {
+    display: inline;
+    padding: 10px;
+  }
+  .enlaces ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+  }
+  .enlaces ul li a:hover {
+    color: cadetblue;
+  }
+  
+  #jumbotron {
+    background-color: burlywood;
+    height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .planes {
+    display: flex;
+    justify-content: space-around;
+  }
+  .promo {
+    display: flex;
+    align-items: center;
+  }
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .descripcion h1 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+  .descripcion p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .descripcion button {
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px;
+  }
+  .jugos {
+    width: 45vw;
+  }
+  .datos{
+    display: flex;
+  }
+  .datos input {
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+  }
+  .datos button {
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .datos button:hover {
+    background-color: lightgoldenrodyellow;
+  }
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .promo button {
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 10px;
+    background-color: transparent;
+  }
+  #productos {
+    height: 20vh;
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 15px;
+  }
+  .card {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0);
+    transition: 0.9s;
+    border-radius: 12px;
+  }
+  .card:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container {
+    padding: 2px 25px;
+  }
+  .card p {
+    font-size: 13px;
+  }
+  
+  #productos h1 {
+    color: red;
+  }
+  .venta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+  }
+  .card button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: sandybrown;
+  }
+  
+  #adicionales {
+    height: 42vh;
+    padding: 30px;
+    background-color: cornsilk;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-around;
+  }
+  #adicionales h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #adicionales p {
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  #contacto {
+    height: 15vh;
+    background-color: lightsalmon;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  .domicilio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  .domicilio h3 {
+    font-size: 15px;
+  }
+  }
 
 
