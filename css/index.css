@@ -141,6 +141,22 @@
     background-color: sandybrown;
   }
   
-
+  #adicionales {
+    height: 90vh;
+    padding: 30px;
+    background-color: cornsilk;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-around;
+  }
+  #adicionales h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #adicionales p {
+    font-size: 10px;
+    text-align: center;
+  }
 
 
