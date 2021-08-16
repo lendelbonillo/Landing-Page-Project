@@ -39,3 +39,68 @@
   .enlaces ul li a:hover {
     color: cadetblue;
   }
+  
+    #jumbotron {
+    background-color: burlywood;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .planes {
+    display: flex;
+    justify-content: space-around;
+  }
+  .promo {
+    display: flex;
+    align-items: center;
+  }
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .descripcion h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+  }
+  .descripcion p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .descripcion button {
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px;
+  }
+  .jugos {
+    width: 35vw;
+  }
+  .datos{
+    display: flex;
+  }
+  .datos input {
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+  }
+  .datos button {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .datos button:hover {
+    background-color: lightgoldenrodyellow;
+  }
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .promo button {
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: transparent;
+  }
