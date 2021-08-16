@@ -9,7 +9,7 @@
   
   header {
     background-color: lightgoldenrodyellow;
-    height: 10vh;
+    height: 15vh;
   }
   .logo {
     width: 100px;
@@ -142,7 +142,7 @@
   }
   
   #adicionales {
-    height: 90vh;
+    height: 100vh;
     padding: 30px;
     background-color: cornsilk;
     display: flex;
