@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: lightgoldenrodyellow;
+    height: 10vh;
+  }
+  .logo {
+    width: 100px;
+  }
+  .carrito {
+    width: 35px;
+  }
+  .enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .enlaces ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .enlaces ul li {
+    display: inline;
+    padding: 10px;
+  }
+  .enlaces ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+  .enlaces ul li a:hover {
+    color: cadetblue;
+  }
