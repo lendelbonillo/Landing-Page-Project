@@ -9,7 +9,7 @@
   
   header {
     background-color: lightgoldenrodyellow;
-    height: 12vh;
+    height: 15vh;
   }
   .logo {
     width: 100px;
@@ -42,7 +42,7 @@
 
     #jumbotron {
     background-color: burlywood;
-    height: 60vh;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -142,7 +142,7 @@
   }
   
   #adicionales {
-    height: 80vh;
+    height: 150vh;
     padding: 30px;
     background-color: cornsilk;
     display: flex;
@@ -160,7 +160,7 @@
   }
 
   #contacto {
-    height: 15vh;
+    height: 25vh;
     background-color: lightsalmon;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
